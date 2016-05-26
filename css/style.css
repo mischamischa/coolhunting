@@ -15,3 +15,17 @@
 body {
     background-color: rgba(188, 231, 202, 0.31);
 }
+
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.link {
+    stroke: #999;
+    stroke-opacity: .6;
+}
+
+.graph-div {
+
+}
