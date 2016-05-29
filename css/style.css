@@ -28,11 +28,11 @@ body {
 
 #map{
     top: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     position: relative;
-    width: 1000px;
-    height: 600px;
+    width: 85%;
+    height: 38em;
     display: inline-block;
 }
 
