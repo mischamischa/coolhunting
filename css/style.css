@@ -24,7 +24,16 @@ body {
 .link {
     stroke: #999;
     stroke-opacity: .6;
+}
 
+#map{
+    top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    display: inline-block;
 }
 
 .graph-div {
