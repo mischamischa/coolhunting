@@ -16,8 +16,8 @@
           "children": [
             {"name": "Chloe Coscarelli", "size": 9534, "url": "https://en.wikipedia.org/wiki/Chloe_Coscarelli"},
             {"name": "Wolfgang Puck", "size": 5731, "url": "https://en.wikipedia.org/wiki/Wolfgang_Puck"},
-            {"name": "Emeril Lagasse", "size": 7840, "url": "https://en.wikipedia.org/wiki/Wolfgang_Puck"},
-            {"name": "Jamie Oliver", "size": 5914, "url": "https://en.wikipedia.org/wiki/Emeril_Lagasse"},
+            {"name": "Emeril Lagasse", "size": 7840 },
+            {"name": "Jamie Oliver", "size": 5914, "url": "https://en.wikipedia.org/wiki/Jamie_Oliver"},
             {"name": "Attila Hildmann", "size": 3416, "url": "https://de.wikipedia.org/wiki/Attila_Hildmann"}
           ]
         },
