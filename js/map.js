@@ -6,27 +6,26 @@ var bubble_map = new Datamap({
     },
     fills: {
         defaultFill: '#ABDDA4',
-        USA: 'red',
-        ASIA: 'yellow',
-        SAO: 'blue',
-        AFRICA: 'brown',
-        EUROPE: 'orange'
+        USA: 'yellow',
+        ASIA: 'red',
+        SAO: '#666633',
+        AFRICA: '#ccff66',
+        EUROPE: 'green'
     }
 });
 bubble_map.bubbles([
     {
         name: 'South America',
-        radius: 23,
+        radius: 25,
         centered: 'BRA',
         country: 'USA',
         yeild: 0,
         fillKey: 'SAO',
         date: '1954-03-01'
 
-    },
-    {
+    },{
         name: 'Europe',
-        radius: 25,
+        radius: 50,
         yeild: 15000,
         country: 'USA',
         significance: 'First dry fusion fuel "staged" thermonuclear weapon; a serious nuclear fallout accident occurred',
@@ -46,7 +45,7 @@ bubble_map.bubbles([
         longitude: -97
     },{
         name: 'Africa',
-        radius: 50,
+        radius: 21,
         yeild: 5000,
         country: 'USSR',
         fillKey: 'AFRICA',
@@ -56,8 +55,9 @@ bubble_map.bubbles([
         longitude: 13
     },{
         name: 'Asia',
-        radius: 50,
+        radius: 30,
         yeild: 50000,
+        img: "asia.png",
         country: 'USSR',
         fillKey: 'ASIA',
         significance: 'Largest thermonuclear weapon ever tested—scaled down from its initial 100 Mt design by 50%',
@@ -66,7 +66,7 @@ bubble_map.bubbles([
         longitude: 100
     },{
         name: 'Australia',
-        radius: 50,
+        radius: 20,
         yeild: 5000,
         country: 'USSR',
         fillKey: 'SAO',
@@ -77,5 +77,24 @@ bubble_map.bubbles([
     }
 ], {
     popupTemplate: function(geo, data) {
-        return '<div class="hoverinfo">Themes: diets, \t guides/recipes, \n meat is slaugther, \n anti vegan' + data.yeild }
+        if (data.name == "Asia") {
+            return '<img id=asia src=img/asia.png>';
+        }
+        else if (data.name == "Africa"){
+            return '<img id=asia src=img/af.png>';
+        }
+        else if (data.name == "Australia"){
+            return '<img id=asia src=img/aus.png>';
+        }
+        else if (data.name == "USA"){
+            return '<img id=asia src=img/usa.png>';
+        }
+        else if (data.name == "Europe"){
+            return '<img id=asia src=img/eu.png>';
+        }
+        else if (data.name == "South America"){
+            return '<img id=asia src=img/south.png>';
+        }
+    }
+
 });

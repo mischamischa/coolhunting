@@ -36,6 +36,11 @@ body {
     display: inline-block;
 }
 
+#clouds{
+    position: absolute;
+    top: 30%;
+}
+
 .graph-div {
 
 }
