@@ -20,8 +20,7 @@
             {"name": "Jamie Oliver", "size": 5914, "url": "https://en.wikipedia.org/wiki/Jamie_Oliver"},
             {"name": "Attila Hildmann", "size": 3416, "url": "https://de.wikipedia.org/wiki/Attila_Hildmann"}
           ]
-        },
-        {
+        }, {
           "name": "Athletes", "size" : 30000,
           "children": [
             {"name": "Carl Lewis", "size": 7074, "url": "https://en.wikipedia.org/wiki/Carl_Lewis"},
@@ -31,7 +30,31 @@
             {"name": "Venus Williams", "size": 5914, "url": "https://en.wikipedia.org/wiki/Venus_Williams"},
             {"name": "Jeff Sekerak", "size": 3416, "url": "http://www.jsekerak.com/"}
           ]
-        }
+        },{
+          "name": "Celebrties", "size" : 30000,
+          "children": [
+            {"name": "Carl Lewis", "size": 7074, "url": "https://en.wikipedia.org/wiki/Carl_Lewis"},
+            {"name": "Karl Ess", "size": 9534, "url": "https://www.karl-ess.com/"},
+            {"name": "Mike Tyson", "size": 5731, "url": "https://en.wikipedia.org/wiki/Mike_Tyson"},
+            {"name": "Martina Navrátilová", "size": 7840, "url": "https://en.wikipedia.org/wiki/Martina_Navratilova"},
+            {"name": "Venus Williams", "size": 5914, "url": "https://en.wikipedia.org/wiki/Venus_Williams"},
+            {"name": "Jeff Sekerak", "size": 3416, "url": "http://www.jsekerak.com/"}
+      ]
+    },{
+          "name": "Actors", "size" : 30000,
+          "children": [
+            {"name": "Ellen DeGeneres", "size": 6000, "url": "https://en.wikipedia.org/wiki/Ellen_DeGeneres"},
+            {"name": "Jessica Chastain", "size": 6000, "url": "https://en.wikipedia.org/wiki/Jessica_Chastain"},
+            {"name": "Ellen Page", "size": 6000, "url": "https://en.wikipedia.org/wiki/Ellen_Page"},
+            {"name": "Tom Bergeron", "size": 6000, "url": "https://en.wikipedia.org/wiki/Tom_Bergeron"},
+            {"name": "Danny Trejo", "size": 6000, "url": "https://en.wikipedia.org/wiki/Danny_Trejo"},
+            {"name": "Jen Smith", "size": 6000, "url": "https://en.wikipedia.org/wiki/Jen_Smith"},
+            {"name": "Daryl Hannah", "size": 6000, "url": "https://en.wikipedia.org/wiki/Daryl_Hannah"},
+            {"name": "Robert Rodriguez", "size": 6000, "url": "https://en.wikipedia.org/wiki/Robert_Rodriguez"},
+            {"name": "Dermot O'Leary", "size": 6000, "url": "https://en.wikipedia.org/wiki/Dermot_O%27Leary"}
+          ]
+       }
+
       ]
 
 }

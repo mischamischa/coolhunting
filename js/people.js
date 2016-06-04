@@ -21,6 +21,21 @@ d3.json("graph.json", function(error, json) {
 
     root = json;
     update();
+
+    root.children.forEach(function(d){
+        if (d.url) {
+            location.href = d.url;
+        }
+        else if (d.children) {
+            d._children = d.children;
+            d.children = null;
+        } else {
+            d.children = d._children;
+            d._children = null;
+        }
+
+        update();
+    });
 });
 
 function update() {
@@ -92,6 +107,7 @@ function click2(d){
 // Toggle children on click.
 function click(d) {
     if (d3.event.defaultPrevented) return; // ignore drag
+
     if (d.url) {
         location.href = d.url;
     }
@@ -103,7 +119,7 @@ function click(d) {
         d._children = null;
     }
 
-    update();
+   update();
 }
 
 // Returns a list of all nodes under the root.
@@ -111,11 +127,17 @@ function flatten(root) {
     var nodes = [], i = 0;
 
     function recurse(node) {
+
         if (node.children) node.children.forEach(recurse);
         if (!node.id) node.id = ++i;
         nodes.push(node);
+
+
     }
 
+
+
     recurse(root);
+
     return nodes;
 }
