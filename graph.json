@@ -5,20 +5,33 @@
         {
           "name": "Musicians", "size" : 30000,
           "children": [
-            {"name": "Prince", "size": 3938, "url": "https://en.wikipedia.org/wiki/Prince_%28musician%29"},
-            {"name": "Miley Cyrus", "size": 3812, "url": "https://en.wikipedia.org/wiki/Miley_Cyrus"},
-            {"name": "Usher", "size": 6714, "url": "https://en.wikipedia.org/wiki/Usher_%28singer%29"},
-            {"name": "Avril Lavigne", "size": 743, "url": "https://en.wikipedia.org/wiki/Avril_Lavigne"}
+            {"name": "Prince", "size": 6000, "url": "https://en.wikipedia.org/wiki/Prince_%28musician%29"},
+            {"name": "Miley Cyrus", "size": 6000, "url": "https://en.wikipedia.org/wiki/Miley_Cyrus"},
+            {"name": "Usher", "size": 6000, "url": "https://en.wikipedia.org/wiki/Usher_%28singer%29"},
+            {"name": "Avril Lavigne", "size": 6000, "url": "https://en.wikipedia.org/wiki/Avril_Lavigne"},
+            {"name": "Travis Barker", "size": 6000, "url": "https://en.wikipedia.org/wiki/Travis_Barker"},
+            {"name": "Leona Lewis", "size": 6000, "url": "https://en.wikipedia.org/wiki/Leona_Lewis"},
+            {"name": "Carrie Underwood", "size": 6000, "url": "https://en.wikipedia.org/wiki/Carrie_Underwood"},
+            {"name": "Jason Mraz", "size": 6000, "url": "https://en.wikipedia.org/wiki/Jason_Mraz"},
+            {"name": "Jack Barakat", "size": 6000, "url": "https://en.wikipedia.org/wiki/All_Time_Low"},
+            {"name": "Opie & Jim Norton", "size": 6000, "url": "https://en.wikipedia.org/wiki/Opie_with_Jim_Norton"},
+            {"name": "Moby", "size": 6000, "url": "https://en.wikipedia.org/wiki/Moby"},
+            {"name": "RZA", "size": 6000, "url": "https://de.wikipedia.org/wiki/RZA_(Rapper)"}
           ]
         },
         {
           "name": "Chefs", "size" : 30000,
           "children": [
-            {"name": "Chloe Coscarelli", "size": 9534, "url": "https://en.wikipedia.org/wiki/Chloe_Coscarelli"},
-            {"name": "Wolfgang Puck", "size": 5731, "url": "https://en.wikipedia.org/wiki/Wolfgang_Puck"},
-            {"name": "Emeril Lagasse", "size": 7840 },
-            {"name": "Jamie Oliver", "size": 5914, "url": "https://en.wikipedia.org/wiki/Jamie_Oliver"},
-            {"name": "Attila Hildmann", "size": 3416, "url": "https://de.wikipedia.org/wiki/Attila_Hildmann"}
+            {"name": "Chloe Coscarelli", "size": 6000, "url": "https://en.wikipedia.org/wiki/Chloe_Coscarelli"},
+            {"name": "Wolfgang Puck", "size": 6000, "url": "https://en.wikipedia.org/wiki/Wolfgang_Puck"},
+            {"name": "Emeril Lagasse", "size": 6000, "url": "https://en.wikipedia.org/wiki/Emeril_Lagasse"},
+            {"name": "Jamie Oliver", "size": 6000, "url": "https://en.wikipedia.org/wiki/Jamie_Oliver"},
+            {"name": "Attila Hildmann", "size": 6000, "url": "https://de.wikipedia.org/wiki/Attila_Hildmann"},
+            {"name": "Jose Garces", "size": 6000, "url": "https://en.wikipedia.org/wiki/Jose_Garces"},
+            {"name": "Wolfgang Puck", "size": 6000, "url": "https://en.wikipedia.org/wiki/Wolfgang_Puck"},
+            {"name": "Rachael Ray", "size": 6000, "url": "https://en.wikipedia.org/wiki/Rachael_Ray"},
+            {"name": "The Kitchen Sisters", "size": 6000, "url": "https://en.wikipedia.org/wiki/The_Kitchen_Sisters"},
+            {"name": "Dana Cowin", "size": 6000, "url": "https://en.wikipedia.org/wiki/Dana_Cowin"}
           ]
         }, {
           "name": "Athletes", "size" : 30000,
@@ -33,12 +46,10 @@
         },{
           "name": "Celebrties", "size" : 30000,
           "children": [
-            {"name": "Carl Lewis", "size": 7074, "url": "https://en.wikipedia.org/wiki/Carl_Lewis"},
-            {"name": "Karl Ess", "size": 9534, "url": "https://www.karl-ess.com/"},
-            {"name": "Mike Tyson", "size": 5731, "url": "https://en.wikipedia.org/wiki/Mike_Tyson"},
-            {"name": "Martina Navrátilová", "size": 7840, "url": "https://en.wikipedia.org/wiki/Martina_Navratilova"},
-            {"name": "Venus Williams", "size": 5914, "url": "https://en.wikipedia.org/wiki/Venus_Williams"},
-            {"name": "Jeff Sekerak", "size": 3416, "url": "http://www.jsekerak.com/"}
+            {"name": "Marc Andreessen", "size": 6000, "url": "https://en.wikipedia.org/wiki/Marc_Andreessen"},
+            {"name": "George Stroumboulopulos", "size": 6000, "url": "https://en.wikipedia.org/wiki/George_Stroumboulopoulos"},
+            {"name": "Lisa Vanderpump", "size": 6000, "url": "https://en.wikipedia.org/wiki/Lisa_Vanderpump"},
+            {"name": "Bill Clinton", "size": 6000, "url": "https://en.wikipedia.org/wiki/Bill_Clinton"}
       ]
     },{
           "name": "Actors", "size" : 30000,
