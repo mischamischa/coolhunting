@@ -6,7 +6,8 @@ var bubble_map = new Datamap({
     },
     fills: {
         defaultFill: '#ABDDA4',
-        RES: 'red'
+        RES: 'red',
+        RES2: 'yellow'
     }
 });
 
@@ -15,7 +16,7 @@ bubble_map.bubbles([
         name: 'Maison De Tet Decor',
         city: 'Hanoi',
         price: '$',
-        radius: 6,
+        radius: 20,
         fillKey: 'RES',
         latitude: 21,
         longitude: 105
@@ -47,7 +48,7 @@ bubble_map.bubbles([
         name: 'Arch Bistro',
         city: 'Istanbul',
         price: '$$',
-        radius: 6,
+        radius: 10,
         fillKey: 'RES',
         latitude: 41,
         longitude: 28
@@ -55,7 +56,7 @@ bubble_map.bubbles([
         name: 'Marrakech Henna Art Cafe',
         city: 'Marrakesh',
         price: '$',
-        radius: 6,
+        radius: 5,
         fillKey: 'RES',
         latitude: 31,
         longitude: -8
@@ -63,7 +64,7 @@ bubble_map.bubbles([
         name: 'Cafe Loren',
         city: 'London',
         price: '$',
-        radius: 6,
+        radius: 8,
         fillKey: 'RES',
         latitude: 51,
         longitude: 0
@@ -103,7 +104,7 @@ bubble_map.bubbles([
         name: 'Ts TanTan Tokyostation',
         city: 'Tokyo',
         price: '$',
-        radius: 6,
+        radius: 14,
         fillKey: 'RES',
         latitude: 35,
         longitude: 139
@@ -119,7 +120,7 @@ bubble_map.bubbles([
         name: 'Copasetic Barcelona',
         city: 'Barcelona',
         price: '$$',
-        radius: 6,
+        radius: 18,
         fillKey: 'RES',
         latitude: 41,
         longitude: 2
@@ -143,7 +144,7 @@ bubble_map.bubbles([
         name: 'Komala Villas Restaurant',
         city: 'Singapore',
         price: '$',
-        radius: 6,
+        radius: 12,
         fillKey: 'RES',
         latitude: 1,
         longitude: 103
@@ -196,10 +197,34 @@ bubble_map.bubbles([
         latitude: 45,
         longitude: 4
     },{
+        name: 'none',
+        city: 'Mumbai',
+        price: 'none',
+        radius: 6,
+        fillKey: 'RES2',
+        latitude: 19,
+        longitude: 72
+    },{
+        name: 'none',
+        city: 'Pittsburgh',
+        price: 'none',
+        radius: 6,
+        fillKey: 'RES2',
+        latitude: 40,
+        longitude: -80
+    },{
+        name: 'none',
+        city: 'Fes',
+        price: 'none',
+        radius: 6,
+        fillKey: 'RES2',
+        latitude: 34,
+        longitude: -5
+    },{
         name: 'Malabar South Indian',
         city: 'Sydney',
         price: '$$',
-        radius: 6,
+        radius: 16,
         fillKey: 'RES',
         latitude: -33,
         longitude: 150
