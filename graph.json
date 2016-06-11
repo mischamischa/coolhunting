@@ -1,9 +1,9 @@
 {
-  "name": "People", "size" : 50000,
+  "name": "People", "size" : 80000,
   "children": [
 
         {
-          "name": "Musicians", "size" : 30000,
+          "name": "Musicians", "size" : 48000,
           "children": [
             {"name": "Prince", "size": 6000, "url": "https://en.wikipedia.org/wiki/Prince_%28musician%29"},
             {"name": "Miley Cyrus", "size": 6000, "url": "https://en.wikipedia.org/wiki/Miley_Cyrus"},
@@ -20,7 +20,7 @@
           ]
         },
         {
-          "name": "Chefs", "size" : 30000,
+          "name": "Chefs", "size" : 40000,
           "children": [
             {"name": "Chloe Coscarelli", "size": 6000, "url": "https://en.wikipedia.org/wiki/Chloe_Coscarelli"},
             {"name": "Wolfgang Puck", "size": 6000, "url": "https://en.wikipedia.org/wiki/Wolfgang_Puck"},
@@ -34,17 +34,17 @@
             {"name": "Dana Cowin", "size": 6000, "url": "https://en.wikipedia.org/wiki/Dana_Cowin"}
           ]
         }, {
-          "name": "Athletes", "size" : 30000,
+          "name": "Athletes", "size" : 24000,
           "children": [
-            {"name": "Carl Lewis", "size": 7074, "url": "https://en.wikipedia.org/wiki/Carl_Lewis"},
-            {"name": "Karl Ess", "size": 9534, "url": "https://www.karl-ess.com/"},
-            {"name": "Mike Tyson", "size": 5731, "url": "https://en.wikipedia.org/wiki/Mike_Tyson"},
-            {"name": "Martina Navrátilová", "size": 7840, "url": "https://en.wikipedia.org/wiki/Martina_Navratilova"},
-            {"name": "Venus Williams", "size": 5914, "url": "https://en.wikipedia.org/wiki/Venus_Williams"},
-            {"name": "Jeff Sekerak", "size": 3416, "url": "http://www.jsekerak.com/"}
+            {"name": "Carl Lewis", "size": 6000, "url": "https://en.wikipedia.org/wiki/Carl_Lewis"},
+            {"name": "Karl Ess", "size": 6000, "url": "https://www.karl-ess.com/"},
+            {"name": "Mike Tyson", "size": 6000, "url": "https://en.wikipedia.org/wiki/Mike_Tyson"},
+            {"name": "Martina Navrátilová", "size": 6000, "url": "https://en.wikipedia.org/wiki/Martina_Navratilova"},
+            {"name": "Venus Williams", "size": 6000, "url": "https://en.wikipedia.org/wiki/Venus_Williams"},
+            {"name": "Jeff Sekerak", "size": 6000, "url": "http://www.jsekerak.com/"}
           ]
         },{
-          "name": "Celebrties", "size" : 30000,
+          "name": "Celebrties", "size" : 16000,
           "children": [
             {"name": "Marc Andreessen", "size": 6000, "url": "https://en.wikipedia.org/wiki/Marc_Andreessen"},
             {"name": "George Stroumboulopulos", "size": 6000, "url": "https://en.wikipedia.org/wiki/George_Stroumboulopoulos"},
@@ -52,7 +52,7 @@
             {"name": "Bill Clinton", "size": 6000, "url": "https://en.wikipedia.org/wiki/Bill_Clinton"}
       ]
     },{
-          "name": "Actors", "size" : 30000,
+          "name": "Actors", "size" : 36000,
           "children": [
             {"name": "Ellen DeGeneres", "size": 6000, "url": "https://en.wikipedia.org/wiki/Ellen_DeGeneres"},
             {"name": "Jessica Chastain", "size": 6000, "url": "https://en.wikipedia.org/wiki/Jessica_Chastain"},

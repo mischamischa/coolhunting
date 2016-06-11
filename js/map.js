@@ -6,11 +6,11 @@ var bubble_map = new Datamap({
     },
     fills: {
         defaultFill: '#ABDDA4',
-        USA: 'yellow',
-        ASIA: 'red',
-        SAO: '#666633',
-        AFRICA: '#ccff66',
-        EUROPE: 'green'
+        USA: 'red',
+        ASIA: 'green',
+        SAO: '#ccff66',
+        AFRICA: '#666633',
+        EUROPE: 'red'
     }
 });
 bubble_map.bubbles([
